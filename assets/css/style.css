@@ -1,0 +1,106 @@
+* {
+	margin: 0;
+	padding: 0
+}
+
+body {
+
+}
+.links {
+	text-transform: uppercase;
+	color:  #4B420B !important;
+}
+
+.navbar-background{
+	background-color: #E5E5E5;
+}
+
+.logo-style {
+	width: 68.63px;
+	height: 66px;
+}
+
+.middle-circle {
+	display: flex;
+	justify-content: center;
+}
+.mid-container {
+	background-image: url('../images/Ellipse 1.png');
+	background-position: top;
+	background-size: cover;
+}
+
+.hero-head {
+	width: 580px;
+	margin-top: 309px;
+
+}
+
+.lines {
+	display: flex;
+	justify-content: center;
+	align-content: flex-start;
+}
+
+.line-style {
+	width: 100px;
+	height: 0.5em;
+}
+
+#squiggle {
+	padding: 0 32px;
+}
+
+
+/*-------media query for smaller devices-----*/
+@media screen and (max-width: 340px) {
+/*	.rectangle-1 {
+		width: 250px;
+	}
+
+	.hero-head {
+		width: 580px;
+		height: 157px;
+		margin-top: 10px;
+
+	}
+
+	.header-title {
+		width: 250px;
+	}*/
+}
+
+/*-------media query for tablet devices-----*/
+@media screen and (max-width: 768px) {
+	.rectangle-1 {
+		width: 250px;
+	}
+
+	.hero-head {
+		width: 300px;
+		height: 157px;
+		margin-top: 10px;
+
+	}
+
+	.header-title {
+		width: 300px;
+	}
+
+	.line-style {
+		width: 100px;
+		height: 0.3em;
+	}
+
+	#squiggle {
+		height: 0.6em;
+	}
+
+}
+
+/*-------media query for medium devices-----*/
+@media screen and (max-width: 425px) {
+}
+/*-------media query for small devices-----*/
+@media screen and (max-width: 375px) {
+}
